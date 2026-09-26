@@ -132,6 +132,8 @@ Ja. `billbee_get_order_by_extref` findet eine Billbee-Bestellung über die exter
 ## Verwandte Repositories
 
 - [ecommerce-mcp-server](https://github.com/HelpCode-ai/ecommerce-mcp-server): E-commerce MCP server: connect Amazon, eBay, WooCommerce, Shopware, Kaufland, OTTO and 7 more to Claude & ChatGPT.
+- [kaufland-mcp-server](https://github.com/kochfreiburg/kaufland-mcp-server): Kaufland Marketplace MCP server: Claude & ChatGPT read your Kaufland seller orders, units, shipments, tickets and storefronts.
+- [otto-market-mcp-server](https://github.com/kochfreiburg/otto-market-mcp-server): OTTO Market MCP server: connect the otto.de partner API to Claude & ChatGPT. Orders, products, returns, stock and price updates.
 - [AnythingMCP](https://github.com/HelpCode-ai/anythingmcp): der Open-Source-MCP-Server und -Gateway, auf dem dieses Repository aufbaut.
 
 ## Lizenz
