@@ -1,0 +1,25 @@
+{
+  "$comment": "Read by scripts/install.sh, scripts/smoke.mjs and the sync workflow. Generated; edit satellites.config.json in HelpCode-ai/anythingmcp instead.",
+  "repo": "billbee-mcp-server",
+  "owner": "kochfreiburg",
+  "mainRepo": "HelpCode-ai/anythingmcp",
+  "adapters": [
+    {
+      "slug": "billbee",
+      "region": "de",
+      "requiredEnvVars": [
+        "BILLBEE_API_KEY",
+        "BILLBEE_LOGIN_EMAIL",
+        "BILLBEE_API_PASSWORD"
+      ]
+    }
+  ],
+  "setup": {
+    "type": "adapter"
+  },
+  "smokeCall": {
+    "tool": "billbee_list_orders",
+    "args": {},
+    "mayFailWithoutCredentials": true
+  }
+}
